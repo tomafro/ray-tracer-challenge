@@ -1,0 +1,11 @@
+[package]
+name = "tracer"
+version = "0.1.0"
+authors = ["Tom Ward <tom@popdog.net>"]
+
+[dependencies]
+indoc = "0.2"
+rayon = "1.1"
+
+[profile.release]
+debug = true
